@@ -12,7 +12,7 @@ WORKDIR /Scala
 
 ADD . /Scala
 
-EXPOSE 9000
+EXPOSE 80/tcp
 
 CMD sbt run
 
